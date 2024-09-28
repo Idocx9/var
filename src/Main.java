@@ -68,6 +68,24 @@ public class Main {
         var Фрукты = Яблоко + Мандарин + Виноград;
         var ОбщийВес = Фрукты + Овощи + Мясо + Вода + Уголь;
         System.out.println("Общий вес" + ОбщийВес + "кг");
+         ОбщийВес= ОбщийВес * 2;
+         /// Задача перегруз
+        var Potato = 5;
+        var Tomato = 20;
+        var Carrot = 30;
+        var Water = 40;
+        var Coal = 15;
+        var Meat = 25;
+        var Greenapple = 5;
+        var Orange = 5;
+        var Grape = 5;
+        var Vegetables = Potato + Tomato + Carrot;
+        var Fruits = Greenapple + Orange + Grape;
+        var Overweight = Fruits + Овощи + Meat + Water + Coal;
+        System.out.println("Общий вес" + Overweight + "кг");
+
+        var Overload = (liftingWeight + Overweight) % liftingCapacity;
+        System.out.println("Перегруз на" + Overload + "кг!");
 
 
 
